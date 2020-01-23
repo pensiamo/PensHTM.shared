@@ -20,6 +20,7 @@ const colorWheel = {
     black: '#000',
     greyTan: 'rgba(152, 151, 139, 0.5)',
     testColor: 'pink',
+    anotherColor: 'blue'
 }
 
 export default colorWheel;
