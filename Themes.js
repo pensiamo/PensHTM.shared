@@ -18,7 +18,8 @@ const colorWheel = {
     darkGray: '#495057',
     white: '#fff',
     black: '#000',
-    greyTan: 'rgba(152, 151, 139, 0.5)'
+    greyTan: 'rgba(152, 151, 139, 0.5)',
+    testColor: 'pink',
 }
 
 export default colorWheel;
