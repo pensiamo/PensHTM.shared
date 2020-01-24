@@ -1,3 +1,5 @@
+export const AsyncStoragePrefix = 'EvolutionDxStorage:';
+
 export const WorkOrderStatus = {
     New: 1,
     Assigned: 2,
@@ -33,7 +35,7 @@ export const WorkOrderType = {
     Caller: "Caller"
 }
 
-export const encounterStartMethod = {
+export const EncounterStartMethod = {
     Scan: 1,
     ManualEntry: 2,
     NoACN: 3
@@ -65,8 +67,8 @@ export const ActivityActions = {
     CallRequestor: 3,
     TagNewEquipment: 4,
     CallVendor: 5,
-    RequireAssitance: 6
-}
+    RequireAssistance: 6
+};
 
 export const DynamicSections = [
     { displayName: "Facility", propertyName: "facilityName", },
@@ -75,4 +77,35 @@ export const DynamicSections = [
 
 export const DocTypes = {
     NamePlate: 73
+};
+
+export const ActivityType = {
+    Undetermined: 1,
+    PM: 2,
+    SM: 3,
+    Repair: 4,
+    SafetyCheck: 6,
+    InspectInventory: 7,
+    Security: 8,
+    HWUpdate: 9,
+    SWUpdate: 10,
+    InstallDeinstall: 11,
+    Investigation: 12,
+    ProvideInformation: 13,
+    PurchaseSupport: 14,
+    ProjectTask: 15,
+    Training: 16,
+    Recall: 17
+};
+
+export const IconType = {
+    Ionicons: 1,
+    FontAwesome: 2,
+    MaterialCommunityIcons: 3
+};
+
+export const ServiceCallTabs = {
+    Unacknowledged: 0,
+    Acknowledged: 1,
+    Worked: 2
 }
