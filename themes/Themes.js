@@ -1,4 +1,4 @@
-const colorWheel = {
+export const colorWheel = {
     blue: '#007C92',
     orange: '#DC5034',
     green: '#739600',
@@ -19,6 +19,4 @@ const colorWheel = {
     white: '#fff',
     black: '#000',
     greyTan: 'rgba(152, 151, 139, 0.5)',
-}
-
-export default colorWheel;
+};
