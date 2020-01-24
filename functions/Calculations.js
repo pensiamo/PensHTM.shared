@@ -478,6 +478,50 @@ const makeCancelable = (promise) => {
     };
 };
 
+const calculateEncounterTime = workOrder => {
+    const { activities } = workOrder;
+    const activity = activities.length ? activities[0] : null; //Cheat and only take first activity, ITS has a 1:1 relationship between work order and activity
+
+    if (!activity || !activity.encounters.length) {
+        return '';
+    }
+
+    let totalMinutes = activity.encounters.reduce((total, e) => {
+        //Take entered time if it exists
+        if (e.enteredTime) {
+            return total + e.enteredTime;
+        }
+
+        //Ensure both start and end dates are set
+        if (!e.startDate || !e.endDate) {
+            return total;
+        }
+
+        //Otherwise take minutes between start and end dates
+        var milliseconds = Moment(e.endDate).diff(Moment(e.startDate));
+        var minutes = Math.round(Moment.duration(milliseconds).asMinutes());
+
+        return total + minutes;
+    }, 0);
+
+    //Round to nearest 15 minutes
+    totalMinutes = Math.round(totalMinutes / 15) * 15;
+
+    //Convert to hours and minutes
+    const hours = Math.floor(totalMinutes / 60);
+    let minutes = totalMinutes % 60;
+
+    //If hours and minutes are both 0 round minutes up to 15
+    if (hours === 0 && minutes === 0) {
+        minutes = 15;
+    }
+
+    const minuteFraction = minutes / 60;
+
+    //Return formatted string
+    return `${hours}h ${minutes}m (${hours + minuteFraction} hrs)`;
+}
+
 export {
     color_barSelected,
     color_barUnselected,
@@ -529,5 +573,6 @@ export {
     convertMinutes,
     getEndOfDayDateTime,
     getDate,
-    makeCancelable
+    makeCancelable,
+    calculateEncounterTime,
 };
