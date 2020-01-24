@@ -72,3 +72,7 @@ export const DynamicSections = [
     { displayName: "Facility", propertyName: "facilityName", },
     { displayName: "Department", propertyName: "facilityDepartmentName", }
 ];
+
+export const DocTypes = {
+    NamePlate: 73
+}
