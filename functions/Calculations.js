@@ -1,6 +1,6 @@
 import React from 'react';
 import Moment from 'moment';
-import { colorWheel } from './PensHTM.shared/themes/Themes';
+import { colorWheel } from '../themes/Themes';
 import match from 'autosuggest-highlight/match';
 import parse from 'autosuggest-highlight/parse';
 import 'moment-precise-range-plugin';
