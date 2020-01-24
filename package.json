@@ -1,0 +1,24 @@
+{
+  "name": "penshtm.shared",
+  "version": "1.0.0",
+  "description": "A shared collection of code for all to enjoy.",
+  "main": "index.js",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "moment-precise-range-plugin": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pensiamo/PensHTM.shared.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pensiamo/PensHTM.shared/issues"
+  },
+  "homepage": "https://github.com/pensiamo/PensHTM.shared#readme"
+}
