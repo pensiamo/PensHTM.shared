@@ -1,3 +1,4 @@
+import React from 'react';
 import Moment from 'moment';
 import { colorWheel } from '../themes/Themes';
 import match from 'autosuggest-highlight/match';
