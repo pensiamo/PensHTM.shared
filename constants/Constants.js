@@ -25,6 +25,12 @@ export const WorkOrderSource = {
     Technician: 3,
 }
 
+export const ServiceCallSource = {
+    PhoneRequest: { name: 'Phone Request', id: '1' },
+    WebRequest: { name: 'Web Request', id: '2' },
+    TechnicianGenerated: { name: 'Technician Generated', id: '3' }
+}
+
 export const EntityType = {
     Manufacturer: { name: 'Manufacturer', id: '2' },
     Product: { name: 'Product', id: '1' }
