@@ -19,4 +19,8 @@ export const colorWheel = {
     white: '#fff',
     black: '#000',
     greyTan: 'rgba(152, 151, 139, 0.5)',
-};
+
+    dangerRed: '#d9534f',
+}
+
+export default colorWheel;
