@@ -1,7 +1,7 @@
 import {
     faTools, faSearch, faEraser, faCheckCircle, faTimesCircle, faEdit, faCheck, faMinusCircle, faClipboardList,
     faSitemap, faChevronUp, faChevronDown, faUserTag, faUserLock, faUsersCog, faUserFriends, faUserTimes, faUserMinus,
-    faUserPlus, faDatabase, faUserEdit, faSave, faUndo, faFileImport, faChevronRight, faExclamationCircle,
+    faUserPlus, faUserCheck, faDatabase, faUserEdit, faSave, faUndo, faFileImport, faChevronRight, faExclamationCircle,
     faExclamationTriangle, faSync, faFolderPlus, faCogs, faTag, faIndustry, faBriefcase, faPlusCircle,
     faSquare, faCheckSquare, faInfoCircle, faTimes, faDownload, faUpload, faClone, faEllipsisH, faStepForward,
     faBarcode, faHashtag, faBan, faClock, faCalendarCheck, faAlignJustify, faHandPaper, faCopy, faCommentDots,
@@ -17,7 +17,7 @@ const addFontAwesomeIconsToLibrary = () => {
     // icon='check-square' size='lg' />
     library.add(faTools, faSearch, faEraser, faCheckCircle, faTimesCircle, faEdit, faCheck,
         faMinusCircle, faClipboardList, faSitemap, faChevronUp, faChevronDown, faUserTag,
-        faUserLock, faUsersCog, faUserFriends, faUserTimes, faUserMinus, faUserPlus, faDatabase,
+        faUserLock, faUsersCog, faUserFriends, faUserTimes, faUserMinus, faUserPlus, faUserCheck, faDatabase,
         faUserEdit, faSave, faUndo, faFileImport, faChevronRight, faExclamationCircle, faExclamationTriangle, faSync,
         faFolderPlus, faCogs, faTag, faIndustry, faBriefcase, faPlusCircle, faSquare, faCheckSquare, faInfoCircle,
         faTimes, faCheck, faDownload, faUpload, faClone, faEllipsisH, faStepForward, faBarcode, faHashtag, faBan,
