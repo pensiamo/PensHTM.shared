@@ -114,4 +114,10 @@ export const ServiceCallTabs = {
     Unacknowledged: 0,
     Acknowledged: 1,
     Worked: 2
-}
+};
+
+export const FacilitySearchLevel = {
+    Facility: 0,
+    Department: 1,
+    Unit: 2
+};
