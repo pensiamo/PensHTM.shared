@@ -21,6 +21,7 @@ export const colorWheel = {
     greyTan: 'rgba(152, 151, 139, 0.5)',
 
     dangerRed: '#ed2f2f',
+    lightGreen: '#E1E5D6', //this is needed for mobile since it can't see transGreen
 }
 
 export default colorWheel;
