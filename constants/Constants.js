@@ -26,14 +26,14 @@ export const WorkOrderSource = {
 }
 
 export const ServiceCallSource = {
-    PhoneRequest: { name: 'Phone Request',id: '1' },
-    WebRequest: { name: 'Web Request',id: '2' },
-    TechnicianGenerated: { name: 'Technician Generated',id: '3' }
+    PhoneRequest: { name: 'Phone Request', id: '1' },
+    WebRequest: { name: 'Web Request', id: '2' },
+    TechnicianGenerated: { name: 'Technician Generated', id: '3' }
 }
 
 export const EntityType = {
-    Manufacturer: { name: 'Manufacturer',id: '2' },
-    Product: { name: 'Product',id: '1' }
+    Manufacturer: { name: 'Manufacturer', id: '2' },
+    Product: { name: 'Product', id: '1' }
 }
 
 export const WorkOrderType = {
@@ -61,10 +61,11 @@ export const ActionRequesteds = {
 }
 
 export const Urgencies = {
-    Today: { name: 'Today',id: '1' },
-    ScheduleMe: { name: 'Schedule Me',id: '2' },
-    IncidentReport: { name: 'Incident Report',id: '3' },
-    Stat: { name: 'Stat',id: '4' },
+    Routine: { name: 'Routine', id: '1' },
+    ScheduleMe: { name: 'Schedule Me', id: '2' },
+    IncidentReport: { name: 'Incident Report', id: '3' },
+    Stat: { name: 'Stat', id: '4' },
+    Expedite: { name: 'Expedite', id: '5' },
 };
 
 export const ActivityActions = {
@@ -77,8 +78,8 @@ export const ActivityActions = {
 };
 
 export const DynamicSections = [
-    { displayName: "Facility",propertyName: "facilityName",},
-    { displayName: "Department",propertyName: "facilityDepartmentName",}
+    { displayName: "Facility", propertyName: "facilityName", },
+    { displayName: "Department", propertyName: "facilityDepartmentName", }
 ];
 
 export const DocTypes = {
