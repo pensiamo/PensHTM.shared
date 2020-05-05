@@ -63,9 +63,9 @@ export const ActionRequesteds = {
 export const Urgencies = {
     Routine: { name: 'Routine', id: '1' },
     ScheduleMe: { name: 'Schedule Me', id: '2' },
+    Expedite: { name: 'Expedite', id: '5' },
     IncidentReport: { name: 'Incident Report', id: '3' },
     Stat: { name: 'Stat', id: '4' },
-    Expedite: { name: 'Expedite', id: '5' },
 };
 
 export const ActivityActions = {
