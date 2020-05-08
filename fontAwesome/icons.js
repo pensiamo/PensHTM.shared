@@ -6,7 +6,7 @@ import {
     faSquare, faCheckSquare, faInfoCircle, faTimes, faDownload, faUpload, faClone, faEllipsisH, faStepForward,
     faBarcode, faHashtag, faBan, faClock, faCalendarCheck, faAlignJustify, faHandPaper, faCopy, faCommentDots,
     faPencilAlt, faFolder, faTh, faBookOpen, faLink, faList, faThumbsUp, faCog, faFile, faWrench, faPhone, faGlobe,
-    faEye, faSortUp, faSortDown, faSort, faGift, faAsterisk, faPaste, faMapPin, faShippingFast
+    faEye, faSortUp, faSortDown, faSort, faGift, faAsterisk, faPaste, faMapPin, faShippingFast, faUserAltSlash
 } from '@fortawesome/free-solid-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
 
@@ -23,7 +23,7 @@ const addFontAwesomeIconsToLibrary = () => {
         faTimes, faCheck, faDownload, faUpload, faClone, faEllipsisH, faStepForward, faBarcode, faHashtag, faBan,
         faClock, faCalendarCheck, faAlignJustify, faHandPaper, faCopy, faCommentDots, faPencilAlt, faFolder, faTh,
         faBookOpen, faLink, faList, faThumbsUp, faCog, faFile, faWrench, faPhone, faGlobe, faEye,
-        faSortUp, faSortDown, faSort, faGift, faAsterisk, faPaste, faMapPin, faShippingFast);
+        faSortUp, faSortDown, faSort, faGift, faAsterisk, faPaste, faMapPin, faShippingFast, faUserAltSlash);
 };
 
 export {
